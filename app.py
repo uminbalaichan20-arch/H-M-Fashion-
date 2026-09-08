@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import database as db
@@ -113,4 +112,4 @@ with tab_inventory:
 with tab_reports:
     st.subheader("📊 Sales History")
     st.dataframe(db.get_sales_report(), use_container_width=True)
-  
+    
